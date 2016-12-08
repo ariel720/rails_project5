@@ -14,6 +14,22 @@ $navbar-default-bg: #000;
     text-decoration: none;
 }
 
-.test{
-    
+.btn-xlg{
+    font-size: 1.7em;
+    background-color: black;
+}
+
+.footer{
+    color: #777;
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.footer small {
+    float: left;
+}
+
+.footer ul {
+    float: right;
+    list-style: none;
 }
