@@ -14,7 +14,10 @@
             <%=link_to post.title, post %>
           </div>
           <div class="article-body">
-            <%= post.content %>
+            <%= truncate(post.content, length: 100) %>
+            <div class="article-meta-details">
+            <small>Created by: <%= post.user.username if post.user %></small>
+            </div>
           </div>
      
        <div class="article-actions">
